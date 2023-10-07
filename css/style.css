@@ -1,0 +1,97 @@
+/* font css part start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font css part end*/
+/* basic css part start*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #686de0;
+}
+/* basic css part end*/
+/* container css part start*/
+.container {
+    width: 310px;
+    background: #fff;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container .game_title h2 {
+    font-size: 25px;
+    color: #eb4d4b;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .game_title p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number_input {
+    position: relative;
+    margin: 20px 0;
+}
+
+.number_input input {
+    width: 280px;
+    height: 40px;
+    border: 0;
+    background: #f9ca24;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number_input input::placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.play_button button {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 70px;
+    height: 40px;
+    background: #686de0;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.play_button button:hover {
+    background: #4834d4;
+}
+
+.display h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #30336b;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* container css part end*/
